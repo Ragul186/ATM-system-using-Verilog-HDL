@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "E:/ATM_system/main.xst" -ofn "E:/ATM_system/main.syr" 
+xst -intstyle ise -ifn "E:/ATM_system/main.xst" -ofn "E:/ATM_system/main.syr" 
+xst -intstyle ise -ifn "E:/ATM_system/main.xst" -ofn "E:/ATM_system/main.syr" 
+xst -intstyle ise -ifn "E:/ATM_system/main.xst" -ofn "E:/ATM_system/main.syr" 
+xst -intstyle ise -ifn "E:/ATM_system/main.xst" -ofn "E:/ATM_system/main.syr" 
+xst -intstyle ise -ifn "E:/ATM_system/main.xst" -ofn "E:/ATM_system/main.syr" 
+xst -intstyle ise -ifn "E:/ATM_system/main.xst" -ofn "E:/ATM_system/main.syr" 
+xst -intstyle ise -ifn "E:/ATM_system/main.xst" -ofn "E:/ATM_system/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-vq100-5 main.ngc main.ngd  
+map -intstyle ise -p xc3s100e-vq100-5 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 

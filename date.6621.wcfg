@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="E:/ATM_system/tb_atm_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_atm" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/tb_atm/cardnumber" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cardnumber[31:0]</obj_property>
+      <obj_property name="ObjectShortName">cardnumber[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm/pin" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pin[19:0]</obj_property>
+      <obj_property name="ObjectShortName">pin[19:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm/start" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm/uut/cardset" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">cardset[0:4,31:0]</obj_property>
+      <obj_property name="ObjectShortName">cardset[0:4,31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm/uut/pinset" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pinset[0:4,19:0]</obj_property>
+      <obj_property name="ObjectShortName">pinset[0:4,19:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm/uut/current_state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">current_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">current_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm/uut/next_state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">next_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">next_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm/uut/count" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">count[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm/uut/amount" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">amount[31:0]</obj_property>
+      <obj_property name="ObjectShortName">amount[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm/uut/transaction" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">transaction[2:0]</obj_property>
+      <obj_property name="ObjectShortName">transaction[2:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_atm/uut/balance" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">balance[31:0]</obj_property>
+      <obj_property name="ObjectShortName">balance[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

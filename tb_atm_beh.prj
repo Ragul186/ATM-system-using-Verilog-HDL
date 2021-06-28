@@ -1,0 +1,3 @@
+verilog work "main.v"
+verilog work "tb_atm.v"
+verilog work "D:/software/ISE_DS/ISE//verilog/src/glbl.v"
